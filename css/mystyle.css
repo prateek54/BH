@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Qwigley');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,600|Roboto:100,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700i');
+
+
+*{
+  padding:0;
+  margin: 0;
+  color:#fff;
+
+}
+div {
+    display: block;
+}
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  background: white;
+}
+#sidenavbtnp{
+	display: none;
+}
+
+.menu{
+	position: absolute;
+    top: 18px;
+    	right: 80px;
+
+}
+.menu ul,li {
+	display: inline-block;
+
+}
+.menu a
+{
+font-family: 'Quicksand', sans-serif;
+
+margin-right: 8px;
+padding :15px 25px;
+cursor:pointer;
+text-decoration: none;
+font-size: 20px;
+}
+.menu a:hover
+{
+background-color: #bababa;
+  transition: 0.5s all ease-in-out;
+
+}
+.logo{
+	font-size: 95px;
+	display: inline-block;
+	font-family: 'Alex Brush', cursive;
+	cursor:pointer;
+	margin-left: 10px;
+
+}
+.logo a{
+	text-decoration: none;
+
+}
+.big h1
+{
+    font-size: 150px;
+font-family: 'Poiret One', cursive;
+cursor: pointer;
+
+}
+.big p
+{
+    font-weight: 400;
+    font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+
+
+
+}
+
+.big button {
+    border-radius: 8px;
+    background: transparent;
+    border: 1px white solid;
+    padding: 25px;
+    transition: 0.5s all ease-in-out;
+    margin-top: 80px;
+    letter-spacing: 3px;
+    width: 25%;
+    cursor: pointer;
+  font-weight: 600;
+}
+.big button:hover {
+  background: rgba(196, 151, 6, 0.7);
+  color:#1e1326;
+  transition: 0.5s all ease-in-out;
+  border:#ffc107 1px solid;
+  font-weight: 600;
+}
+
+main div.cent {
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    overflow: none;
+}
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: none;
+}
+
+header  {
+  background: url('../images/bkg.jpg');
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+
+}
+
+.about {
+    width: 100%;
+    padding: 130px 0px;
+    text-align: center;
+}
+.about h1 {
+    font-family: 'Advent Pro';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #0a0118;
+    font-weight: 600;
+}
+
+.about .line {
+    background: #1e1326;
+    width: 80px;
+    height: 4px;
+    margin: 0 auto;
+}
+.about p {
+    width: 55%;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 120%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.pic_over h1 {
+    font-family: 'Roboto';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #0a0118;
+    font-weight: 600;
+}
+.pics {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0px 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.pic_over {
+  display: inline-block;
+}
+
+.white h1{
+	color:white;
+	    font-weight: 300;
+
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    padding: 50px 0px;
+    bottom: 0px;
+    left: 0px;
+    background: black;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.right {
+  float: right;
+  margin-right: 50px;
+}
+.left {
+  float: left;
+  letter-spacing: 10px;
+  margin-left: 50px;
+}
+
+.footer p {
+  display: inline-block;
+}
+.sidenav{
+	display: none;
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+  .menu {
+    display: none;
+  }
+  #sidenavbtnp{
+display: inline-block;
+}
+
+  .logo{
+	font-size: 65px;
+	display: inline-block;
+	font-family: 'Alex Brush', cursive;
+	cursor:pointer;
+	margin-left: 35%;
+
+
+}
+
+  .big h1 {
+    font-size: 45px;
+  }
+  .big h2 {
+    font-size: 12px;
+  }
+
+  .big p {
+    width: 90%;
+  }
+
+  header {
+    background-position: 50%;
+  }
+
+ .big button {
+    width: 90%;
+  }
+
+  .about p {
+    width: 90%;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .white .button {
+    width: 80%;
+  }
+
+  .white {
+    background-position: 50%;
+  }
+
+  .pic_over {
+    margin-top: 100px;
+  }
+
+  .right {
+    float: none;
+    display: block;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .left {
+    margin-left: 0px;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  .br {
+    display: block;
+  }
+  
+
+
+
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+ 
+
+}
